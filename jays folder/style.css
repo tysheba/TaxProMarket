@@ -1,0 +1,186 @@
+header {
+    background-color: #040933;
+
+}
+
+.content {
+width: 960px;
+margin: 0px auto;
+
+}
+
+.nav {
+    
+    height: 35px;
+    
+    /* background-color: #040933; */
+}
+
+.nav ul {
+    list-style-type: none;
+   
+    overflow: hidden;
+    
+
+}
+
+.nav li {
+    float: right;
+    margin: 7px 5px;
+
+}
+
+
+.nav a {
+    display: block;
+    color: white;
+    
+    
+    text-decoration: none;
+
+
+}
+
+.extra {
+    
+    margin-top: 15px;
+    float: left;
+}
+
+.extra img {
+    margin-right: 10px;
+    height: 70px;
+    
+}
+.extra h1 {
+    
+    color: #040933;
+    
+}
+.title {
+    clear: right;	
+    margin: 30px 10px;
+    display: inline-block;
+}
+
+.extra:after {
+    /* content: ""; */
+    display: table;
+    clear: both;
+}
+
+
+.info-space {
+    height: 300px;
+    background-color: lightblue;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    clear: both;
+
+
+}
+
+
+.leftside {
+    color: white;
+    padding-top: 100px;
+    width: 40%;
+    display: inline-block;
+
+}
+.rightside {
+    color: white;
+    background-color: #040933;
+    height: 250px;
+    margin: 30px;
+    
+   
+    width: 40%;
+    float: right
+
+}
+
+
+.rightside h3 {
+    padding-top:10px; 
+    
+    text-align: center;
+}
+
+.login {
+    padding: 50px 15px;
+
+
+}
+
+.login input {
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color:  #040933;
+    color: white;
+}
+
+.login p {
+    margin-top: 10px;
+}
+
+.login button {
+
+    padding : 5px 30px;
+    margin  : 20px 10px auto;
+    display : inline-block;
+    /* width   : 100px; */
+}
+
+.reviews {
+    margin: 50px;
+    
+}
+.reviews h1 {
+    margin: 30px;
+    text-align: center;
+
+}
+
+.row {
+    height: 200px;
+}
+
+ .column {
+    
+    float: left;
+    height: 175px;
+    width: 30%;
+    background-color: lightblue;
+    margin-right: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+}
+.row:after {
+    display: table; 
+    clear: both;
+}
+
+
+.more-info {
+    height: 500px;
+    background-color: #d3d3d3;
+
+}
+
+footer {
+    
+    position: absolute;
+    /* left: 0;
+    bottom: 0; */
+    width: 100%;
+    height: 50px;
+  padding: 1rem; 
+  background-color: #040933;
+  text-align: center;
+
+
+}
