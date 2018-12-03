@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import StarRating from '../react-star-rating';
+
+class FormComponent extends React.Component {
+  render() {
+    return (
+      <form target="_self" method="Get">
+        <StarRating name="react-star-rating" caption="Rate this pro!" totalStars={5} />
+        <button type="submit" className="btn btn-primary">Submit Rating</button>
+      </form>
+    );
+  }
+}
+
+React.render(<FormComponent />, document.getElementById('star-rating'));
 
 class App extends Component {
   render() {
