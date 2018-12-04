@@ -14,7 +14,7 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../contact.html"));
   });
   // Load About Page
-  app.get("/meals", function(req, res) {
+  app.get("/about", function(req, res) {
     res.sendFile(path.join(__dirname, "../about.html"));
   });
 };

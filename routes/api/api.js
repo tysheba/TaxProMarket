@@ -32,4 +32,26 @@ module.exports = function(app) {
         res.json(dbrequests);
       });
   });
+
+  //Add Rating
+  app.post("/api/rating", function(req, res) {
+    console.log(req.body);
+    db.requests.create({
+        rating: req.body.rating,
+      })
+      .then(function(dbrequests) {
+        res.json(dbrequests);
+      });
+  });
+
+  //Add Review
+  app.post("/api/review", function(req, res) {
+    console.log(req.body);
+    db.requests.create({
+        review: req.body.review,
+      })
+      .then(function(dbrequests) {
+        res.json(dbrequests);
+      });
+  });
 };
